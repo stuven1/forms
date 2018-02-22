@@ -27,7 +27,7 @@ Today's assignment is to build a signup form for a web service and style this ac
 
 Use the `code` folder to build your solution.
 
-To complete this assignment, you need to fork this repository, make changes to your copy, and then submit a pull request on GitHub (from your repository into the technigo one) for review. Don't forget to add a link to your inspiration for your form into the `README.md` file in the starter code.
+To complete this assignment, you need to fork this repository, make changes to your copy, and then submit a pull request on GitHub (from your repository into the Technigo one) for review. Don't forget to add a link to your inspiration for your form into the `README.md` file in the starter code.
 
 ### :books: Reading List
 
@@ -44,7 +44,7 @@ Learning how to think as a web developer is learning how to be an expert in prob
 1. Google! In English, type in the error message if there is one, search within the language you're using (ie CSS, JavaScript etc).
 2. Ask your code buddies in your Company.
 3. Ask your fellow students in Slack.
-4. Ask Damien. Please note: we are part of a sharing community - share the answer with your fellows.
+4. Ask Damien or David. Please note: we are part of a sharing community - share the answer with your fellows.
 
 ---
 
