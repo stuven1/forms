@@ -1,0 +1,116 @@
+body {
+    background-image: url("image-ee.jpg");
+}
+
+h1{
+  font-size: 28px;
+  font-family: TradeGothicLT-CondEighteen, sans-serif;
+  color: #455863;
+  font-weight: normal;
+}
+
+.hero-box {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top:30px;
+}
+
+h3{
+font-weight: normal;
+margin: 1px;
+color: #455863;
+}
+
+p{
+  font-size:18px;
+}
+
+input{
+  font-family: Times, serif;
+  font-style: normal;
+  font-size: 15px;
+  color: #667d8b;
+  margin: 3px;
+}
+
+.user-info{
+  font-family: Times, serif;
+  font-style: normal;
+  font-size: 15px;
+  color: #667d8b;
+  width: 300px;
+  margin: 5px;
+  padding: 10px;
+}
+
+h1 span{
+font-weight: bold;
+}
+
+.boat-testdrive{
+  font-family: Times, serif;
+  font-size: 15px;
+  color: #667d8b;
+}
+
+#submit{
+  font-family: TradeGothicLT-BoldCondTwenty, sans-serif;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  color: #fff;
+  background-color: #455863;
+}
+.button{
+  margin: 10px;
+}
+
+.pick-a-boat{
+  margin-bottom:10px;
+  margin-top: 10px;
+}
+
+.registeredLogin{
+  font-family: Times, Georgia, serif;
+  font-style: italic;
+  font-size: 14px;
+  color: #23527c;
+}
+
+.box1 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.box2 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.box3 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+/* MOBILE-SIZE */
+@media (max-width: 600px) {
+  .hero-box{
+    width: calc(100% - 20px);
+  }
+  .user-info{
+    width: calc(100% - 40px);
+  }
+}
+
+/* TABLETS-SIZE */
+@media (min-width: 600px) and (max-width: 900px){
+  .hero-box{
+    width: calc(100% - 20px);
+  }
+  .user-info{
+    width: calc(100%-60px);
+  }
+}

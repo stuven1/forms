@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sprint 1: Assignment Forms</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <div class="hero-box">
+      <form action="http://httpbin.org/anything" method="post">
+        <img src="./anchor-xs.png"/>
+        <div class="box1">
+            <h1><span>EE</span>HARBOR REGISTRATION</h1>
+        </div>
+
+        <div class="box2">
+          <div>
+              <label>
+                <input class="user-info" type="text" name="Username" placeholder="Username" required />
+              </label>
+          </div>
+
+          <div>
+              <label>
+                <input class="user-info" type="password" name="Password" placeholder="Password" required />
+              </label>
+          </div>
+
+          <div>
+              <label>
+                <input class="user-info" type="password" name="Confirm Password" placeholder="Confirm Password" required />
+              </label>
+          </div>
+
+          <div>
+              <label>
+                <input class="user-info" type="text" name="Email" placeholder="Email" required />
+              </label>
+          </div>
+
+          <div class="pick-a-boat">
+            <h3>Pick a boat you would like to test drive at the harbor:</h3>
+                  <input type="radio" id="boat1" name="boat" value="Catamaran">
+                  <label for="boat1">Catamaran</label>
+
+                  <input type="radio" id="boat2" name="boat" value="Ski-boat">
+                  <label for="boat2">Ski-boat</label>
+
+                  <input type="radio" id="boat3" name="boat" value="Yacht">
+                  <label for="boat3">Yacht</label>
+
+                  <input type="radio" id="boat4" name="boat" value="Another Boat">
+                  <label for="boat4">Another Boat</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="subscribeNews" name="Subscribe" value="newsletter?">
+            <label for="subscribeNews">Subscribe to newsletter?</label>
+          </div>
+          <input type="submit" id="submit" name="Submit" value="submit">
+        </div> <!--belongs to box2-->
+
+        <div class="box3">
+          <div class="registeredLogin">
+            <a href="https://eeharbor.com/members/login">Already Registered? Login</a>
+          </div>
+        </div>
+
+      </form>
+    </div> <!--belongs to hero-box-->
+  </body>
+</html>
+
+
+<!-- Build a form that at a minimum contains:
+
+2 x Text fields
+1 x A password field
+1 x Set of radio buttons
+1 x Set of checkboxes
+1 x Submit button -->
